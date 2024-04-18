@@ -14,6 +14,16 @@
 //  const myStr2 = myStr.split('').reverse().join('')
 // console.log(myStr2)
 
+// const myStr = 'pizza';
+// for (let a of myStr);
+// console.log(a);
+
+const str = 'pizza';
+for (let b of 'pizza') {
+console.log(b);
+}
+
+
 // const arr = []
 // for (let i = myStr.length -1; i >= 0; i--) {
 //     arr.push(myStr[i])
@@ -59,8 +69,10 @@
 // console.log(surName);
 
 
-const fruits = ['kiwi', 'apple', 'kiwi', 'orange', 'kiwi'];
-const myArrey = new Set(fruits);
-console.log(Array.from(myArrey))
+// const fruits = ['kiwi', 'apple', 'kiwi', 'orange', 'kiwi'];
+// const myArrey = new Set(fruits);
+// console.log(Array.from(myArrey))
 
 
+// let sum = 0.1 + 0.2;
+// console.log(+sum.toFixed(2) );
